@@ -1,0 +1,34 @@
+:root{
+    --c-gray: #3d405b;
+    --c-white: #f4f1de;
+    --c-orange: #e07a5f;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+    gap: 20px;
+    padding: 30px;
+}
+.photo{
+    overflow: hidden;
+}
+
+.photo img{
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+h1{
+    text-align: center;
+}
+.text{
+    text-align: center;
+}
+body{
+    background-color: var(--c-whtie);
+}
+.header{
+    background-color: var(--c-orange);
+    color: var(--c-white);
+    border: 5px solid var(--c-gray);
+}
